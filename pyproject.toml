@@ -36,11 +36,11 @@ dependencies = [
     "iopath",
     "fairscale",
     # for clipscore
-    # "scikit-learn",
-    # "pycocoevalcap",
-    # "image-reward",
-    # "hpsv2",
-    # "fire==0.4.0",
+    "scikit-learn",
+    "pycocoevalcap",
+    "image-reward @ git+https://github.com/THUDM/ImageReward.git",
+    "hpsv2",
+    "fire==0.4.0",
     "tiktoken>=0.7.0",
 ]
 
